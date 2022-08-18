@@ -17,7 +17,7 @@ Ahmed Karam
 ## Run
 
 Example command:
-#### *python3 SNPacTF.py --snp_table '/path/to/snp_table.csv' --snp_fasta '/path/to/snp_fasta.fasta' --comparison_table '/path/to/comparison.tsv' --motif_db*
+#### **python3 SNPacTF.py --snp_table '/path/to/snp_table.csv' --snp_fasta '/path/to/snp_fasta.fasta' --comparison_table '/path/to/comparison.tsv' --motif_db '/path/to/motif_databases.12.23' --output '/path/to/output/folder' --prefix 'prefix'**
 
 ##### Arguments:
 - -h = show this help message and exit
