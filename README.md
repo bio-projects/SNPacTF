@@ -181,7 +181,7 @@ GTGACTCAGCCATGGCGTGGAGCTRCGCCTGTGGATGACAGCRACASCTC	MA1405.1	-32	0.10518	68.9981	
 # The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
 # tomtom -no-ssc -oc . -verbosity 1 -min-overlap 5 -mi 1 -dist pearson -evalue -thresh 70.0 -time 300 query_motifs db/JASPAR/JASPAR2022_CORE_plants_non-redundant_v2.meme
 ```
-This line (For windows ```# tomtom db\database_name\database_branch.meme``` | For Linux ```# tomtom db/database_name/database_branch.meme```) will be essential if you are using a program other than **Tomtom**. You will put the main part which is ```# tomtom db/``` , and then write the name of the database file in meme format and the name of the folder in which the file is located.
+This line ```# query_motifs db**/**database_name**/**database_branch.meme``` will be essential if you are using a program other than **Tomtom**. You will put the main part which is ```# query_motifs db/``` , and then write the name of the database file in meme format and the name of the folder in which the file is located. Put the line at the comparison file (following the comparison table).
 
 ### Input Folder/Directory Name
 
